@@ -16,6 +16,7 @@ return {
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.astro" },
+  { import = "astrocommunity.project.project-nvim" },
   { import = "astrocommunity.search.sad-nvim" },
   { import = "astrocommunity.programming-language-support.rest-nvim" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
@@ -29,5 +30,6 @@ return {
   { import = "astrocommunity.debugging.persistent-breakpoints-nvim" },
   { import = "astrocommunity.debugging.telescope-dap-nvim" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
