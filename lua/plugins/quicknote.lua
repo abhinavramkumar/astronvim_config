@@ -19,6 +19,15 @@ return {
     }
 
     require("telescope").load_extension "quicknote"
+
+    --
+    vim.api.nvim_set_keymap("n", "<leader>fN", "<cmd>:Telescope quicknote<cr>", { desc = "Find notes glabally" })
+    vim.api.nvim_set_keymap(
+      "n",
+      "<leader>N",
+      "<cmd>:lua require('quicknote').NewNoteAtGlobal()<cr>",
+      { desc = "Create a new global note" }
+    )
   end,
   dependencies = { "nvim-lua/plenary.nvim" },
 }
