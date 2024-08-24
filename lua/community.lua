@@ -32,7 +32,7 @@ return {
   { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
   { import = "astrocommunity.git.octo-nvim" },
   { import = "astrocommunity.editing-support.yanky-nvim" },
-  { import = "astrocommunity.debugging.nvim-bqf" },
+  { import = "astrocommunity.quickfix.nvim-bqf" },
   { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
   { import = "astrocommunity.debugging.persistent-breakpoints-nvim" },
   { import = "astrocommunity.debugging.telescope-dap-nvim" },
